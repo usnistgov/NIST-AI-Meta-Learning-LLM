@@ -1,57 +1,17 @@
-# NIST Open-Source Software Repository Template
+# Meta Learning with LLM: supplemental_code
+Meta learning with LLM: supplemental code for reproducibility of computational results for MLT and MLT-plus-TM. Related research paper: 
+"META LEARNING WITH LANGUAGE MODELS: CHALLENGES AND OPPORTUNITIES IN THE CLASSIFICATION OF IMBALANCED TEXT", A. Vassilev, H. Jin, M. Hasan, 2023 (to appear on arXiv).
 
-This is the recommended template for NIST employees to use for new
-open-source software repositories. 
+All code and data is contained in the zip archive arxiv2023.zip, subject to the licensing terms shown below. See the Readme.txt contained there for detailed explanation how to 
+unpack and run the code. See also requirements.txt for the necessary depedencies (libraries needed). 
 
-### README
+# LICENSING TERMS
 
-1. Software or Data description (Coming soon)
-   - Statements of purpose and maturity
-   - Technical installation instructions
-2. Contact information (Coming soon)
-   - PI name, NIST OU, Division, and Group names
-   - Contact email address at NIST
-   - Details of mailing lists, chatrooms, and discussion forums,
-     where applicable
-3. Related Material (Coming soon)
-   - URL for associated project on <nist.gov> or other Department of
-     Commerce site, if available
-   - References to user guides if stored outside of GitHub
-4. Directions on appropriate citation with example text (Coming soon)
-5. References to any included non-public domain software modules, and
-   additional license language if needed, *e.g.* [BSD][li-bsd],
-   [GPL][li-gpl], or [MIT][li-mit] (Coming soon)
+This code and data was developed by employees of the National Institute of Standards and Technology (NIST), an agency of the Federal Government. Pursuant to title 17 United States Code Section 105, works of NIST employees are not subject to copyright protection in the United States and are considered to be in the public domain. The code and data are provided by NIST as a public service and are expressly provided "AS IS." NIST MAKES NO WARRANTY OF ANY KIND, EXPRESS, IMPLIED OR STATUTORY, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTY OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT AND CODE AND DATA ACCURACY. NIST does not warrant or make any representations regarding the use of the code and data or the results thereof, including but not limited to the correctness, accuracy, reliability or usefulness of the code and data. NIST SHALL NOT BE LIABLE AND YOU HEREBY RELEASE NIST FROM LIABILITY FOR ANY INDIRECT, CONSEQUENTIAL, SPECIAL, OR INCIDENTAL DAMAGES (INCLUDING DAMAGES FOR LOSS OF BUSINESS PROFITS, BUSINESS INTERRUPTION, LOSS OF BUSINESS INFORMATION, AND THE LIKE), WHETHER ARISING IN TORT, CONTRACT, OR OTHERWISE, ARISING FROM OR RELATING TO THE CODE AND DATA (OR THE USE OF OR INABILITY TO USE THIS CODE AND DATA), EVEN IF NIST HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
 
-### Terms of Use: `LICENSE.md`
+To the extent that NIST may hold copyright in countries other than the United States, you are hereby granted the non-exclusive irrevocable and unconditional right to print, publish, prepare derivative works and distribute the NIST code and data, in any medium, or authorize others to do so on your behalf, on a royalty-free basis throughout the world.
 
-Each repository will contain a file named `LICENSE.md` that is
-phrased in compliance with the Public Access to NIST Research
-[*Copyright, Fair Use, and Licensing Statement for SRD, Data, and
-Software*][nist-open].
+You may improve, modify, and create derivative works of the code and data or any portion of the code and data, and you may copy and distribute such modifications or works. Modified works should carry a notice stating that you changed the code or data and should note the date and nature of any such change. Please explicitly acknowledge the National Institute of Standards and Technology as the source of the data: Data and code citation recommendations are provided below. Permission to use this code and data is contingent upon your acceptance of the terms of this agreement and upon your providing appropriate acknowledgments of NIST's creation of the code and data.
 
-- See [LICENSE.md](LICENSE.md).
-### CODEOWNERS
-
-This template repository includes a file named [CODEOWNERS](CODEOWNERS),
-which visitors can view to discover which GitHub users are "in charge"
-of the repository.
-More crucially, GitHub uses it to assign reviewers on pull requests.
-GitHub documents the file (and how to write one) [here][gh-cdo].
-
-***Please update this file*** to point to your own account or team,
-so that the [Open-Source Team][gh-ost] doesn't get spammed with
-spurious review requests. *Thanks!*
-
-### Repository Metadata: `CODEMETA.yaml`
-
-This repository includes a file named `CODEMETA.yaml`, used by the NIST
-Software Portal to sort your work under the appropriate thematic
-homepage. ***Please update this file*** with the appropriate "theme" and
-"category" for your code/data/software. The Tier 1 themes are:
-
-- [Information Technology](https://www.nist.gov/information-technology)
-- [Standards](https://www.nist.gov/standards)
-
-### FAIR Software & Data
-
-Coming soon
+# CITATION FORMAT
+Author/editor (Publication Year), Title, Publisher, Persistent Identifier (PID) or URL (Access date).
